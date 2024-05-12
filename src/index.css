@@ -1,0 +1,22 @@
+.cart{
+
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+}
+img{
+
+  border: gray;
+  background-color: gray !important;
+  color: aqua !important;
+  border :1px solid black !important;
+  height:100px;
+  width: 100px;
+
+}
+.cart-page{
+
+  border: 1px solid black !important;
+  height: 100px !important;
+  width: 100px !important;
+}
