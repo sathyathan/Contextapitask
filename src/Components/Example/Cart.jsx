@@ -27,16 +27,19 @@ const Cart = () => {
         })
     }
 
-       const handlesubmitRem=(id,quantity)=>{
-        setData(curr=>{
-            return curr.map((element)=>{
-              if(element.id===id && quantity>5){
-                return{...element,quantity:(element.quantity>5||quantity-1)}
-              }
-              return element
-            })
-        })
-    }
+       const handlesubmitRem=(quantity,price)=>{
+       setData(curr=>{
+       return curr.map((element)=>{
+        if(element.quantity===quantity&&quantity>0){
+return{...quantity,price:element.quantity>0||quantity-1}
+        } 
+       return element
+      })
+
+       })
+
+       }
+    
           
 
 
