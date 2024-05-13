@@ -40,12 +40,6 @@ return{...quantity,price:element.quantity>0||quantity-1}
 
        }
     
-          
-
-
-
-
-    
     return (
         <div>
             <h1>Cart Page</h1>
